@@ -9,7 +9,7 @@ MODEL_CACHE_DIR ="llama-cache"
 auth_secret="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"
 
 
-def download_model(MODEL_ID, secret):
+def download_model(MODEL_ID):
     model_cache_path = Path(MODEL_CACHE_DIR)
 
     if model_cache_path.exists():
